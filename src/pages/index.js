@@ -16,23 +16,18 @@ export default () => (
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
-            Main title of your landing page
+            Coming soon...
           </h1>
-          <p className="text-xl lg:text-2xl mt-6 font-light">
-            Free landing page template to promote your business startup and generate leads for the
-            offered services
-          </p>
-          <p className="mt-8 md:mt-12">
-            <Button size="lg">Get Started</Button>
-          </p>
-          <p className="mt-4 text-gray-600">Sed fermentum felis ut cursu</p>
+          <p className="text-xl lg:text-2xl mt-6 font-light">The website is under construction.</p>
         </div>
         <div className="lg:w-1/2">
           <HeroImage />
         </div>
       </div>
     </section>
-    <section id="features" className="py-20 lg:pb-40 lg:pt-48">
+
+    {/*    
+<section id="features" className="py-20 lg:pb-40 lg:pt-48">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl lg:text-5xl font-semibold">Main Features</h2>
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
@@ -136,14 +131,59 @@ export default () => (
         </div>
       </div>
     </section>
-    <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
-      <h3 className="text-5xl font-semibold">Ready to grow your business?</h3>
-      <p className="mt-8 text-xl font-light">
-        Quis lectus nulla at volutpat diam ut. Enim lobortis scelerisque fermentum dui faucibus in.
-      </p>
-      <p className="mt-8">
-        <Button size="xl">Get Started Now</Button>
-      </p>
+    */}
+    <section className="container mx-auto my-20 py-24 bg-gray-100 rounded-lg text-center">
+      <h3 className="text-5xl font-semibold mx-10">Would you like to learn more?</h3>
+      <p className="mt-8 text-xl font-light leading-relaxed">Leave us your email.</p>
+      <form className="container mt-10 w-full max-w-sm text-center">
+        <div className="md:flex md:items-center mb-6">
+          <div className="md:w-1/3">
+            <label
+              className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"
+              htmlFor="inline-full-name"
+            >
+              Name
+            </label>
+          </div>
+          <div className="md:w-2/3">
+            <input
+              className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+              id="inline-full-name"
+              type="text"
+              placeholder="Jane Doe"
+            />
+          </div>
+        </div>
+        <div className="md:flex md:items-center mb-6">
+          <div className="md:w-1/3">
+            <label
+              className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"
+              htmlFor="inline-username"
+            >
+              Email
+            </label>
+          </div>
+          <div className="md:w-2/3">
+            <input
+              className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+              id="inline-username"
+              type="email"
+              placeholder="john@example.com"
+            />
+          </div>
+        </div>
+        <div className="md:flex md:items-center">
+          <div className="md:w-1/3" />
+          <div className="md:w-2/3 md:text-right">
+            <button
+              className="shadow bg-purple-500 hover:bg-purple-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-6 rounded"
+              type="button"
+            >
+              Send
+            </button>
+          </div>
+        </div>
+      </form>
     </section>
   </Layout>
 );
