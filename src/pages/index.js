@@ -135,7 +135,13 @@ export default () => (
     <section className="container mx-auto my-20 py-24 bg-gray-100 rounded-lg text-center">
       <h3 className="text-5xl font-semibold mx-10">Would you like to learn more?</h3>
       <p className="mt-8 text-xl font-light leading-relaxed">Leave us your email.</p>
-      <form className="container mt-10 w-full max-w-sm text-center" name="contact" netlify>
+      <form
+        className="container mt-10 w-full max-w-sm text-center"
+        name="contact"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
+      >
+        <input type="hidden" name="form-name" value="contact" />
         <div className="md:flex md:items-center mb-6">
           <div className="md:w-1/3">
             <label
