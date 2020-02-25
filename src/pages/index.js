@@ -135,7 +135,7 @@ export default () => (
     <section className="container mx-auto my-20 py-24 bg-gray-100 rounded-lg text-center">
       <h3 className="text-5xl font-semibold mx-10">Would you like to learn more?</h3>
       <p className="mt-8 text-xl font-light leading-relaxed">Leave us your email.</p>
-      <form className="container mt-10 w-full max-w-sm text-center">
+      <form className="container mt-10 w-full max-w-sm text-center" name="contact" netlify>
         <div className="md:flex md:items-center mb-6">
           <div className="md:w-1/3">
             <label
@@ -150,6 +150,7 @@ export default () => (
               className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
               id="inline-full-name"
               type="text"
+              name="name"
               placeholder="Jane Doe"
             />
           </div>
@@ -168,6 +169,7 @@ export default () => (
               className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
               id="inline-username"
               type="email"
+              name="email"
               placeholder="john@example.com"
             />
           </div>
@@ -177,7 +179,7 @@ export default () => (
           <div className="md:w-2/3 md:text-right">
             <button
               className="shadow bg-purple-500 hover:bg-purple-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-6 rounded"
-              type="button"
+              type="submit"
             >
               Send
             </button>
