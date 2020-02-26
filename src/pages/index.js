@@ -16,9 +16,8 @@ export default () => (
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
-            Coming soon...
+            Stealth Mode
           </h1>
-          <p className="text-xl lg:text-2xl mt-6 font-light">The website is under construction.</p>
         </div>
         <div className="lg:w-1/2">
           <HeroImage />
