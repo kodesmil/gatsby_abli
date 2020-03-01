@@ -15,9 +15,7 @@ export default () => (
     <section className="pt-20 md:pt-40">
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
-          <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
-            Stealth Mode
-          </h1>
+          <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">Stealth Mode</h1>
         </div>
         <div className="lg:w-1/2">
           <HeroImage />
