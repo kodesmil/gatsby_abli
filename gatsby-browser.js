@@ -1,1 +1,10 @@
-import './src/css/tailwind.css';
+import "prismjs/themes/prism.css"
+
+const shouldUpdateScroll = () => {
+    return false
+}
+
+export {
+    shouldUpdateScroll
+}
+
