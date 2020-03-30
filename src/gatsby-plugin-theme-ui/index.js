@@ -16,15 +16,11 @@ export default {
     heading: "'open sans',arial,sans-serif",
     monospace: "Menlo, monospace",
   },
-  fontSizes: [12, 14, 16, 20, 24, 28, 36, 48, 64],
+  fontSizes: [12, 14, 16, 20, 24, 28, 36, 48, 96],
   fontWeights: {
     body: 400,
-    heading: 700,
+    heading: 1000,
     display: 900,
-  },
-  lineHeights: {
-    body: 1.5,
-    heading: 1.25,
   },
   text: {
     heading: {
@@ -40,6 +36,11 @@ export default {
       marginBlockStart: "0",
       marginBlockEnd: "0",
     },
+    body: {
+      lineHeight: "1.5",
+      marginBlockStart: "0",
+      marginBlockEnd: "0",
+    },
   },
   styles: {
     Container: {
@@ -52,8 +53,8 @@ export default {
       fontWeight: "body",
     },
     p: {
-      marginBlockStart: "0",
-      marginBlockEnd: "0",
+      variant: "text.body",
+      fontSize: [2, 3],
     },
     h1: {
       variant: "text.display",

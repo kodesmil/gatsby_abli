@@ -11,34 +11,19 @@ module.exports = {
     siteUrl: `https://www.fotosmil.no/`,
     features: [
       {
-        heading: "Support & attendant",
-        logo: "whole-year",
-        description:
-          "You won't need to worry about installation of the photo booth nor about any other technical issue. Let us do it for you.",
+        heading: "Machine Learning",
+        logo: "source-code",
+        description: "Proprietary in-house ML engine analytical tools which work on lifestyle data to assess for risks of occupational health disorders and offer personalized intervention strategies",
       },
       {
-        heading: "Unlimited photo printouts",
-        logo: "moments",
-        description:
-          "There are usually 3 or 4 photos on a single printout stripe. We will print as many as needed - with no extra cost! (during rental hours)",
+        heading: "Cloud-enabled EHR",
+        logo: "medical-research",
+        description: "Electronic Health Record (EHR) system and database built for patient privacy  and to support healthcare professionals in treatment and diagnosis.",
       },
       {
-        heading: "Top-quality camera",
-        logo: "polaroid",
-        description:
-          "Photo booth services often use small, portable equipment with low-quality camera. Our photos are taken with a professional SLR camera to ensure the best quality for you.",
-      },
-      {
-        heading: "Vast choice of props",
-        logo: "witch",
-        description:
-          "You can use all of our hundreds of props and backgrounds. (we send patterns on request). What's more, client can order props dedicated for a special theme party, although this service is extra paid.",
-      },
-      {
-        heading: "Delivery within Stor Trondheim",
-        logo: "on-the-way",
-        description:
-          "Orkanger, Stjørdal and Melhus are still free. For further distances - send us request.",
+        heading: "Digital Therapeutics",
+        logo: "fitness-tracker",
+        description: "AI-powered, human-enabled digital intervention tools that promote behavioural change.",
       },
     ],
   },
