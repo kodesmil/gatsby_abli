@@ -97,8 +97,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `FotoSmil Trondheim - Photo Booth`,
-        short_name: `FotoSmil`,
+        name: `Abli Health - AI-based Healthcare platform`,
+        short_name: `Abli Health`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `purple`,
@@ -110,7 +110,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-hubspot",
       options: {
-          trackingCode: "7020884",
+          trackingCode: "7390453",
           respectDNT: true,
           productionOnly: false,
       },
