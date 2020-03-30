@@ -26,7 +26,7 @@ export class FsFooter extends React.Component {
       return (
         <Box
           sx={{
-            marginTop: "5em",
+            marginTop: "7em",
             marginBottom: "1em",
             marginLeft: ["5%", "10%", "15%"],
             marginRight: ["5%", "10%", "15%"],

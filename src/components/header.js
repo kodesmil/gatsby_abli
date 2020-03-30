@@ -48,15 +48,15 @@ export class FsHeader extends React.Component {
             >
               AI-based <span style={{
                     background: "linear-gradient(54.4deg, #31B1E7 10.45%, #268CF5 50%, #2F58F7 89.55%)",
-                    webkitBackgroundClip: "text",
-                    webkitTextFillColor: "transparent",
+                    "-webkit-background-clip": "text",
+                    "-webkit-text-fill-color": "transparent",
               }}>health</span> care platform 
             </Styled.h1>
             <Styled.h3
               style={{
                 color: "black",
                 textAlign: "center",
-                marginTop: "16px",
+                marginTop: "32px",
               }}
             >
               We are transforming the lives of people with behavioural health and

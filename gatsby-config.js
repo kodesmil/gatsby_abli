@@ -1,13 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: `FotoSmil Trondheim | Photo Booth`,
+    title: `Abli Health | AI Healthcare Platform`,
     name: `Fotoboks`,
-    siteUrl: `https://fotosmil.no`,
+    siteUrl: `https://abli.io.no`,
     author: {
-      name: `FotoSmil Trondheim`,
-      summary: `Photo booth - fun booster and ice-breaker for events, parties, weddings`,
+      name: `Abli Health`,
+      summary: `Abli is transforming the lives of people with behavioural health and chronic diseases through data-driven medicine.`,
     },
-    description: `Fun booster and ice-breaker for events, parties, weddings`,
+    description: `Abli is transforming the lives of people with behavioural health and chronic diseases through data-driven medicine.`,
     siteUrl: `https://www.fotosmil.no/`,
     features: [
       {
