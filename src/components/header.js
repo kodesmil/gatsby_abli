@@ -14,15 +14,16 @@ export class FsHeader extends React.Component {
       >
         <Box
           sx={{
-            marginTop: ["auto"],
-            marginBottom: ["auto"],
-            mx: ["5%", "10%", "15%", "25%"],
+            my: "auto",
+            mx: "auto",
+            width: ["90%", "80%", "80%", "60%"],
           }}
         >
           <Styled.h1
             style={{
               color: "black",
               lineHeight: 0.95,
+              marginTop: "1em",
               textAlign: "center",
             }}
           >

@@ -58,7 +58,7 @@ export default {
     },
     h1: {
       variant: "text.display",
-      fontSize: [7, 8],
+      fontSize: [7, 7, 7, 8],
     },
     h2: {
       variant: "text.heading",
