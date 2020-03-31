@@ -92,7 +92,7 @@ module.exports = {
         name: `Abli Health - AI-based Healthcare platform`,
         short_name: `Abli Health`,
         start_url: `/`,
-        background_color: `#ffffff`,
+        background_color: `#f5fefe`,
         theme_color: `purple`,
         display: `minimal-ui`,
         icon: `static/icons/favicon-96x96.png`,
