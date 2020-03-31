@@ -19,6 +19,7 @@ const SEO = ({ description, lang, meta, title }) => {
             title
             siteUrl
             description
+            keywords
           }
         }
         picture: file(relativePath: { eq: "social.jpg" }) {
@@ -45,6 +46,10 @@ const SEO = ({ description, lang, meta, title }) => {
         {
           name: `description`,
           content: metaDescription,
+        },
+        {
+          name: `keywords`,
+          content: site.siteMetadata.keywords,
         },
         {
           property: `og:image`,

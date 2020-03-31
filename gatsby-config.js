@@ -2,11 +2,12 @@ module.exports = {
   siteMetadata: {
     title: `Abli Health | AI Healthcare Platform`,
     name: `Abli Health | AI Healthcare Platform`,
+    keywords: `healthcare, ai, machine learning, health, erp`,
     author: {
       name: `Abli Health`,
-      summary: `Abli is transforming the lives of people with behavioural health and chronic diseases through data-driven medicine.`,
+      summary: `Abli empowers patients to better manage their health with proactive lifestyle insights and data-driven behavioural healthcare.`,
     },
-    description: `Abli is transforming the lives of people with behavioural health and chronic diseases through data-driven medicine.`,
+    description: `Abli empowers patients to better manage their health with proactive lifestyle insights and data-driven behavioural healthcare.`,
     siteUrl: `https://www.abli.io/`,
     features: [
       {
@@ -85,7 +86,6 @@ module.exports = {
         //trackingId: `ADD YOUR TRACKING ID HERE`,
       },
     },
-    `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -94,7 +94,6 @@ module.exports = {
         start_url: `/`,
         background_color: `#f5fefe`,
         theme_color: `purple`,
-        display: `minimal-ui`,
         icon: `static/icons/favicon-96x96.png`,
       },
     },

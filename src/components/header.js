@@ -36,9 +36,9 @@ export class FsHeader extends React.Component {
                 "-webkit-text-fill-color": "transparent",
               }}
             >
-              health
-            </span>{" "}
-            care platform
+              healthcare
+            </span> platform
+            
           </Styled.h1>
           <Box
             sx={{
