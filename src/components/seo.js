@@ -21,7 +21,7 @@ const SEO = ({ description, lang, meta, title }) => {
             description
           }
         }
-        picture: file(relativePath: { eq: "parties/2.jpg" }) {
+        picture: file(relativePath: { eq: "social.jpg" }) {
           childImageSharp {
             fluid {
               ...GatsbyImageSharpFluid

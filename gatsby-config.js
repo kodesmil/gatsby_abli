@@ -1,14 +1,13 @@
 module.exports = {
   siteMetadata: {
     title: `Abli Health | AI Healthcare Platform`,
-    name: `Fotoboks`,
-    siteUrl: `https://abli.io.no`,
+    name: `Abli Health | AI Healthcare Platform`,
     author: {
       name: `Abli Health`,
       summary: `Abli is transforming the lives of people with behavioural health and chronic diseases through data-driven medicine.`,
     },
     description: `Abli is transforming the lives of people with behavioural health and chronic diseases through data-driven medicine.`,
-    siteUrl: `https://www.fotosmil.no/`,
+    siteUrl: `https://www.abli.io/`,
     features: [
       {
         heading: "Machine Learning",
@@ -40,13 +39,6 @@ module.exports = {
       resolve: `gatsby-plugin-theme-ui`,
       options: {
         // Add any options here
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/blog`,
-        name: `blog`,
       },
     },
     {
