@@ -63,11 +63,11 @@ export default {
     h2: {
       variant: "text.heading",
       fontWeight: "heading",
-      fontSize: [6, 7],
+      fontSize: [5, 6, 7],
     },
     h3: {
       variant: "text.heading",
-      fontSize: [5, 6],
+      fontSize: [4, 5, 6],
     },
     h4: {
       variant: "text.heading",

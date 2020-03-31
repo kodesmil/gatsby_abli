@@ -1,16 +1,13 @@
-import { NavLink } from "theme-ui"
-import { FsHeader } from "../components/header"
-import { FsOffer } from "../components/offer"
-import { FsTobBar } from "../components/toolBar"
-import { FsLogos } from "../components/logos"
-import { FsContact } from "../components/contact"
-import { FsFooter } from "../components/footer"
-import React, { Children } from "react"
-import SEO from "../components/seo"
-import { FsSmile } from "../components/smile"
-import { FsPricing } from "../components/pricing"
-import { FsPictures } from "../components/pictures"
-import Fade from "react-reveal/Fade"
+import React from "react";
+import Fade from "react-reveal/Fade";
+import { NavLink } from "theme-ui";
+import { FsContact } from "../components/contact";
+import { FsFooter } from "../components/footer";
+import { FsHeader } from "../components/header";
+import { FsOffer } from "../components/offer";
+import SEO from "../components/seo";
+import { FsSmile } from "../components/smile";
+import { FsTobBar } from "../components/toolBar";
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title

@@ -1,25 +1,6 @@
-import React, { Children } from "react"
-import { Link, graphql } from "gatsby"
-import Fade from "react-reveal/Fade"
+import React from "react";
+import { Box, Button, Input, Styled } from "theme-ui";
 
-import SEO from "../components/seo"
-import {
-  NavLink,
-  Flex,
-  Box,
-  Button,
-  Grid,
-  Styled,
-  Label,
-  Input,
-} from "theme-ui"
-import Img from "gatsby-image"
-import Moments from "../../content/assets/svg/Moments.svg"
-import Witch from "../../content/assets/svg/Witch.svg"
-import WholeYear from "../../content/assets/svg/WholeYear.svg"
-import Polaroid from "../../content/assets/svg/Polaroid.svg"
-import OnTheWay from "../../content/assets/svg/OnTheWay.svg"
-import Woman from "../../content/assets/svg/Woman.svg"
 
 export class FsContact extends React.Component {
     render() {
@@ -27,7 +8,7 @@ export class FsContact extends React.Component {
         <Box
           anchor="contact"
           sx={{
-            paddingTop: "7em",
+            paddingTop: ["4em", "7em"],
             marginLeft: ["5%", "10%", "15%"],
             marginRight: ["5%", "10%", "15%"],
           }}

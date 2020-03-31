@@ -29,15 +29,13 @@ export class FsOffer extends React.Component {
           boxShadow: "0px 0.5px 50px rgba(0,0,0,0.05)",
         }}
       >
-        <Grid style={{
-        }} gap="2em" columns={[1]}>
+        <Grid style={{}} gap="2em" columns={[1]}>
           {this.props.features.map(feature => (
             <Fade>
               <Box
                 sx={{
-          background: "white",
-                  pt: "5em",
-                  pb: "3em",
+                  background: "white",
+                  py: ["2em", "3em", "4em", "5em"],
                   boxShadow: "0px 0.5px 50px rgba(0,0,0,0.04)",
                 }}
               >
@@ -51,8 +49,9 @@ export class FsOffer extends React.Component {
                 </Styled.h3>
                 <Flex
                   sx={{
-                    width: ["95%", "60%", "50%", "35%"],
                     mx: "auto",
+                    width: ["90%", "75%", "75%", "45%"],
+                    maxWidth: "40em",
                     marginTop: "1em",
                   }}
                 >
@@ -82,17 +81,29 @@ export class FsOffer extends React.Component {
 
 function renderLogo(logo) {
   const style = {
-    height: "250px",
-    width: "250px",
-    minWidth: "250px",
-    marginRight: "3em",
+    height: ["7em", "12em", "14em", "14em"],
+    width: ["7em", "12em", "14em", "14em"],
+    minWidth: ["7em", "12em", "14em", "14em"],
+    marginRight: ["2em", "2em", "3em", "3em"],
   }
   switch (logo) {
     case "source-code":
-      return <SourceCode style={style} />
+      return (
+        <Box sx={style}>
+          <SourceCode style={{ height: "inherit", width: "inherit" }} />
+        </Box>
+      )
     case "fitness-tracker":
-      return <FitnessTracker style={style} />
+      return (
+        <Box sx={style}>
+          <FitnessTracker style={{ height: "inherit", width: "inherit" }} />
+        </Box>
+      )
     case "medical-research":
-      return <MedicalResearch style={style} />
+      return (
+        <Box sx={style}>
+          <MedicalResearch style={{ height: "inherit", width: "inherit" }} />
+        </Box>
+      )
   }
 }
