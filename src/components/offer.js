@@ -26,7 +26,6 @@ export class FsOffer extends React.Component {
     return (
       <Box
         sx={{
-          boxShadow: "0px 0.5px 50px rgba(0,0,0,0.05)",
         }}
       >
         <Grid style={{}} gap="2em" columns={[1]}>
@@ -34,9 +33,7 @@ export class FsOffer extends React.Component {
             <Fade>
               <Box
                 sx={{
-                  background: "white",
-                  py: ["2em", "3em", "4em", "5em"],
-                  boxShadow: "0px 0.5px 50px rgba(0,0,0,0.04)",
+                  py: ["2em", "2em", "3em", "3em"],
                 }}
               >
                 <Styled.h3
@@ -50,25 +47,13 @@ export class FsOffer extends React.Component {
                 <Flex
                   sx={{
                     mx: "auto",
-                    width: ["90%", "75%", "75%", "45%"],
+                    width: ["80%", "75%", "75%", "45%"],
                     maxWidth: "40em",
-                    marginTop: "1em",
+                    marginTop: ["1em", "2em"],
                   }}
                 >
                   {renderLogo(feature.logo)}
-                  <Box
-                    sx={{
-                      alignItems: "center",
-                    }}
-                  >
-                    <Styled.p
-                      style={{
-                        marginTop: "1em",
-                      }}
-                    >
-                      {feature.description}
-                    </Styled.p>
-                  </Box>
+                  <Styled.p style={{marginTop: "1em", textAlign: "justify"}}>{feature.description}</Styled.p>
                 </Flex>
               </Box>
             </Fade>

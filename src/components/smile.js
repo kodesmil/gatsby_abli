@@ -6,7 +6,7 @@ export class FsSmile extends React.Component {
     return (
       <Box
         sx={{
-          paddingTop: ["4em", "7em"],
+          paddingTop: ["4em", "4em"],
           width: ["80%", "60%", "40%", "30%"],
           mx: "auto",
         }}

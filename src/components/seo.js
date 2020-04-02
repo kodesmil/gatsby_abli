@@ -22,7 +22,7 @@ const SEO = ({ description, lang, meta, title }) => {
             keywords
           }
         }
-        picture: file(relativePath: { eq: "social.jpg" }) {
+        picture: file(relativePath: { eq: "social2.jpg" }) {
           childImageSharp {
             fluid {
               ...GatsbyImageSharpFluid
