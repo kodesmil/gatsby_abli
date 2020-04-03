@@ -7,7 +7,6 @@ export class Offer extends React.Component {
   render() {
     return (
       <Box sx={{
-        paddingTop: ["4em", "4em", "8em", "8em"],
       }}>
         <Grid style={{}} gap="6em" columns={[1]}>
           {this.props.features.map(feature => (
@@ -42,6 +41,7 @@ export class Offer extends React.Component {
                       width: ["12em", "12em", "14em", "14em"],
                       minWidth: ["12em", "12em", "14em", "14em"],
                       marginLeft: "auto",
+                      paddingTop: ["4em", "4em", "6m", "8em"],
                     }}
                   >
                     <Svg logo={feature.logo}></Svg>

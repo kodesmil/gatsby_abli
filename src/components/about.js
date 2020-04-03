@@ -7,6 +7,7 @@ export class About extends React.Component {
       <Box
         sx={{
           width: ["80%", "60%", "50%", "35%"],
+          paddingBottom: ["4em", "4em", "8em", "8em"],
           mx: "auto",
         }}
       >

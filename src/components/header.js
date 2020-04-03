@@ -7,8 +7,7 @@ export class Header extends React.Component {
     return (
       <Flex
         sx={{
-          paddingTop: ["7em", "8em", "10em", "12em"],
-          minHeight: "100vh",
+          py: ["7em", "8em", "10em", "12em"],
         }}
         as="section"
       >
@@ -44,7 +43,7 @@ export class Header extends React.Component {
               height: ["16em", "17em", "18em", "20em"],
               width: ["16em", "17em", "18em", "20em"],
               minWidth: ["16em", "17em", "18em", "20em"],
-              marginTop: ["1em", "1em", "1em", "1em"],
+              marginTop: ["2em", "2em", "2em", "3em"],
               marginLeft: "auto",
             }}
           >
