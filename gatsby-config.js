@@ -21,7 +21,7 @@ module.exports = {
           heading: "For patients",
           logo: "nature",
           description:
-            "Are empowered with relevant information to actively participate in their healthcare and manage their health more independently.",
+            "Patients are empowered with relevant information to actively participate in their healthcare and manage their health more independently.",
           button: "Read more",
           button_url: "for_patients",
         },
@@ -29,7 +29,7 @@ module.exports = {
           heading: "For clinics",
           logo: "medical-research",
           description:
-            "Can provide a holistic view of their patients’ health with temporal insights and engage with patients meaningfully through shared decision-making about care plans.",
+            "Clinicians can provide a holistic view of their patients’ health with temporal insights and engage with patients meaningfully through shared decision-making about care plans.",
           button: "Read more",
           button_url: "for_clinics",
         },
@@ -37,7 +37,7 @@ module.exports = {
           heading: "For researchers",
           logo: "analyze",
           description:
-            "Will receive access to an expansive and diverse dataset to aid in clinical research and develop new methods of treatment with prevention at its core.",
+            "Researchers will receive access to an expansive and diverse dataset to aid in clinical research and develop new methods of treatment with prevention at its core.",
         },
       ],
     },
