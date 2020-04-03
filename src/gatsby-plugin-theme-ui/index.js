@@ -12,8 +12,8 @@ export default {
     gray: "hsl(10, 20%, 50%)",
   },
   fonts: {
-    body: "'Averta', 'open sans',arial,sans-serif",
-    heading: "Averta-Light, 'open sans',arial,sans-serif",
+    body: "'Avenir', 'open sans',arial,sans-serif",
+    heading: "Avenir, 'open sans',arial,sans-serif",
     monospace: "Menlo, monospace",
   },
   fontSizes: [12, 14, 16, 20, 24, 28, 36, 48, 80],

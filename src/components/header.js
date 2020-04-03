@@ -7,15 +7,13 @@ export class Header extends React.Component {
     return (
       <Flex
         sx={{
-          position: "relative",
-          paddingTop: ["7em", "4em", "4em", "4em"],
+          paddingTop: ["7em", "8em", "10em", "12em"],
           minHeight: "100vh",
         }}
         as="section"
       >
         <Box
           sx={{
-            my: "auto",
             mx: "auto",
             width: ["85%", "80%", "80%", "60%"],
           }}

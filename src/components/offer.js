@@ -6,7 +6,9 @@ import { Svg } from "./svg"
 export class Offer extends React.Component {
   render() {
     return (
-      <Box sx={{}}>
+      <Box sx={{
+        paddingTop: ["4em", "4em", "8em", "8em"],
+      }}>
         <Grid style={{}} gap="6em" columns={[1]}>
           {this.props.features.map(feature => (
             <Fade>
