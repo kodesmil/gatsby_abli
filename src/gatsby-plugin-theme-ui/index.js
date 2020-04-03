@@ -16,7 +16,7 @@ export default {
     heading: "Averta-Light, 'open sans',arial,sans-serif",
     monospace: "Menlo, monospace",
   },
-  fontSizes: [12, 14, 16, 20, 24, 28, 36, 48, 96],
+  fontSizes: [12, 14, 16, 20, 24, 28, 36, 48, 80],
   fontWeights: {
     body: 400,
     heading: 1000,

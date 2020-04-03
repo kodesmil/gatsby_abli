@@ -18,10 +18,10 @@ export default ({ data, location }) => {
           Abli Health
         </NavLink>
         <div style={{ flex: "auto" }}></div>
-        <NavLink style={{ color: "white" }} href="clinics" p={2}>
+        <NavLink style={{ color: "white" }} href="/clinics" p={2}>
           Clinics
         </NavLink>
-        <NavLink style={{ color: "white" }} href="patients" p={2}>
+        <NavLink style={{ color: "white" }} href="/patients" p={2}>
           Patients
         </NavLink>
       </TobBar>

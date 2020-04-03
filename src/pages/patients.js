@@ -22,7 +22,7 @@ export default ({ data, location }) => {
           Abli Health
         </NavLink>
         <div style={{ flex: "auto" }}></div>
-        <NavLink style={{ color: "white" }} href="clinics" p={2}>
+        <NavLink style={{ color: "white" }} href="/clinics" p={2}>
           For clinics
         </NavLink>
       </TobBar>

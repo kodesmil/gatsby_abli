@@ -5,7 +5,7 @@ import { Smile } from "../components/smile"
 import Fade from "react-reveal/Fade"
 
 const Layout = ({ location, children }) => 
-  <div location={location} style={{ background: "#fafefe" }}>
+  <div location={location} style={{ background: "#f5fefe" }}>
     {children}
     <Fade>
       <Smile />
