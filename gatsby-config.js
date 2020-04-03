@@ -9,23 +9,76 @@ module.exports = {
     },
     description: `Abli empowers patients to better manage their health with proactive lifestyle insights and data-driven behavioural healthcare.`,
     siteUrl: `https://www.abli.io/`,
-    features: [
-      {
-        heading: "Machine Learning",
-        logo: "source-code",
-        description: "Proprietary in-house ML engine analytical tools which work on lifestyle data to assess for risks of occupational health disorders and offer personalized intervention strategies",
-      },
-      {
-        heading: "Cloud-enabled EHR",
-        logo: "medical-research",
-        description: "Electronic Health Record (EHR) system and database built for patient privacy  and to support healthcare professionals in treatment and diagnosis.",
-      },
-      {
-        heading: "Digital Therapeutics",
-        logo: "fitness-tracker",
-        description: "AI-powered, human-enabled digital intervention tools that promote behavioural change.",
-      },
-    ],
+    home: {
+      heading: `Let's change the delivery model of healthcare.`,
+      description: "Abli transforms the lives of people with chronic pains and illnesses with a holistic view of health and proactive lifestyle insights.",
+      logo: "source-code",
+      benefits: [
+        {
+          heading: "For patients",
+          logo: "source-code",
+          description: "Are empowered with relevant information to actively participate in their healthcare and manage their health more independently.",
+          button: "Read more",
+          button_url: "for_patients",
+        },
+        {
+          heading: "For clinics",
+          logo: "medical-research",
+          description: "Can provide a holistic view of their patients’ health with temporal insights and engage with patients meaningfully through shared decision-making about care plans.",
+          button: "Read more",
+          button_url: "for_clinics",
+        },
+        {
+          heading: "For researchers",
+          logo: "fitness-tracker",
+          description: "Will receive access to an expansive and diverse dataset to aid in clinical research and develop new methods of treatment with prevention at its core.",
+        },
+      ],
+    },
+    patients: {
+      heading: `Abli empowers patients to better manage their health with proactive lifestyle insights and data-driven behavioural healthcare.`,
+      description: "Abli allows you to take control over your own health by offering you actionable insights into your lifestyle, and prompt activity and habit challenges relevant to your evolving health profile.",
+      logo: "source-code",
+      benefits: [
+        {
+          heading: "Take a proactive approach",
+          logo: "source-code",
+          description: "Shift your health journey to a preventative approach with achievable actions suggested by Abli based on your changing health status.",
+        },
+        {
+          heading: "Receive insights about your health",
+          logo: "medical-research",
+          description: "Abli offers you contextually relevant insights into the effects of your lifestyle and activity-level changes to better understand your body's unique needs.",
+        },
+        {
+          heading: "Share health data on your terms",
+          logo: "fitness-tracker",
+          description: "Easily share data at your next doctor's visit to receive a more accurate assessment and nuanced treatment.",
+        },
+      ],
+    },
+    clinics: {
+      heading: `Abli, the next-generation of AI-enabled healthcare delivery`,
+      description: "Abli is processing underutilised information that’s been right in our hands - our smartphones and smartwatches - to transform the healthcare delivery model. Abli applies Machine Learning techniques that will convert static information into lifestyle-driven insights and patient engagement opportunities to enhance diagnosis, improve predictive interventions, and optimise clinical productivity.",
+      logo: "source-code",
+      benefits: [
+        {
+          heading: "Receive a holistic view of the patients’ lifestyles",
+          logo: "source-code",
+          description: "A user-friendly dashboard offers you access to lifestyle information about your patients to facilitate more nuanced clinical care for your patients.",
+        },
+        {
+          heading: "Streamline your diagnostics process",
+          logo: "medical-research",
+          description: "Our Machine Learning (ML) engine processes patient information to produce predictions for occupational health disorders, and flag them for you to support your treatment and diagnostic methods",
+        },
+        {
+          heading: "Capture new engagement opportunities",
+          logo: "fitness-tracker",
+          description: "Apply preventative measures via remote patient monitoring and timely interventions, presenting a new opportunity to engage with your patients.",
+        },
+      ],
+    }
   },
   plugins: [
     `gatsby-transformer-sharp`,

@@ -1,27 +1,10 @@
-import React, { Children } from "react"
-import { Link, graphql } from "gatsby"
-import Fade from "react-reveal/Fade"
+import React from "react";
+import Fade from "react-reveal/Fade";
+import { Box, Flex, Grid, Styled } from "theme-ui";
+import { Svg } from "./svg";
 
-import SEO from "../components/seo"
-import {
-  NavLink,
-  Flex,
-  Box,
-  Button,
-  Grid,
-  Styled,
-  Label,
-  Input,
-} from "theme-ui"
-import Img from "gatsby-image"
-import Moments from "../../content/assets/svg/Moments.svg"
-import Witch from "../../content/assets/svg/Witch.svg"
-import WholeYear from "../../content/assets/svg/WholeYear.svg"
-import FitnessTracker from "../../content/assets/svg/FitnessTracker.svg"
-import MedicalResearch from "../../content/assets/svg/MedicalResearch.svg"
-import SourceCode from "../../content/assets/svg/SourceCode.svg"
 
-export class FsOffer extends React.Component {
+export class Offer extends React.Component {
   render() {
     return (
       <Box
@@ -71,24 +54,9 @@ function renderLogo(logo) {
     minWidth: ["7em", "12em", "14em", "14em"],
     marginRight: ["2em", "2em", "3em", "3em"],
   }
-  switch (logo) {
-    case "source-code":
-      return (
-        <Box sx={style}>
-          <SourceCode style={{ height: "inherit", width: "inherit" }} />
-        </Box>
-      )
-    case "fitness-tracker":
-      return (
-        <Box sx={style}>
-          <FitnessTracker style={{ height: "inherit", width: "inherit" }} />
-        </Box>
-      )
-    case "medical-research":
-      return (
-        <Box sx={style}>
-          <MedicalResearch style={{ height: "inherit", width: "inherit" }} />
-        </Box>
-      )
-  }
+  return (
+    <Box sx={style}>
+      <Svg logo={logo}></Svg>
+    </Box>
+  )
 }

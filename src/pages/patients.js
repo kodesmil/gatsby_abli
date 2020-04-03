@@ -11,7 +11,7 @@ import { TobBar } from "../components/toolBar"
 import Layout from "../layouts"
 
 export default ({ data, location }) => {
-  const siteData = data.site.siteMetadata.home
+  const siteData = data.site.siteMetadata.patients
   const siteTitle = siteData.heading
   return (
     <Layout location={location}>
@@ -23,9 +23,6 @@ export default ({ data, location }) => {
         <div style={{ flex: "auto" }}></div>
         <NavLink style={{ color: "white" }} href="clinics" p={2}>
           For clinics
-        </NavLink>
-        <NavLink style={{ color: "white" }} href="patients" p={2}>
-          For patients
         </NavLink>
         <NavLink style={{ color: "white" }} href="#contact" p={2}>
           Contact
@@ -43,6 +40,7 @@ export const pageQuery = graphql`
       siteMetadata {
         home {
           heading
+          description
           benefits {
             logo
             heading

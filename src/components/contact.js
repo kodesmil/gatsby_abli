@@ -2,7 +2,7 @@ import React from "react";
 import { Box, Button, Input, Styled } from "theme-ui";
 
 
-export class FsContact extends React.Component {
+export class Contact extends React.Component {
     render() {
       return (
         <Box

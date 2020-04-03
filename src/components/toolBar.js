@@ -2,7 +2,7 @@ import React from "react";
 import { Flex } from "theme-ui";
 
 
-export class FsTobBar extends React.Component {
+export class TobBar extends React.Component {
     render() {
       return (
         <Flex

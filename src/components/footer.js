@@ -2,7 +2,7 @@ import React from "react";
 import { Box, Styled } from "theme-ui";
 
 
-export class FsFooter extends React.Component {
+export class Footer extends React.Component {
     render() {
       return (
         <Box

@@ -3,7 +3,7 @@ import React from "react";
 import { Box, Grid } from "theme-ui";
 
 
-export class FsLogos extends React.Component {
+export class Logos extends React.Component {
     render() {
       return (
         <Grid

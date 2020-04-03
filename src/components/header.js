@@ -2,7 +2,7 @@ import React from "react"
 import { Flex, Box, Styled } from "theme-ui"
 import Woman from "../../content/assets/svg/Woman.svg"
 
-export class FsHeader extends React.Component {
+export class Header extends React.Component {
   render() {
     return (
       <Flex

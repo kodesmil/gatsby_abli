@@ -1,7 +1,7 @@
 import React from "react"
 import { Box, Styled } from "theme-ui"
 
-export class FsSmile extends React.Component {
+export class Smile extends React.Component {
   render() {
     return (
       <Box

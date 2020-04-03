@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade"
 import { NavLink } from "theme-ui"
 import { Contact } from "../components/contact"
 import { Footer } from "../components/footer"
-import { Header } from "../components/header"
+import { Header as Header } from "../components/header"
 import { Offer } from "../components/offer"
 import SEO from "../components/seo"
 import { Smile } from "../components/smile"
@@ -11,7 +11,7 @@ import { TobBar } from "../components/toolBar"
 import Layout from "../layouts"
 
 export default ({ data, location }) => {
-  const siteData = data.site.siteMetadata.home
+  const siteData = data.site.siteMetadata.clinics
   const siteTitle = siteData.heading
   return (
     <Layout location={location}>
@@ -21,9 +21,6 @@ export default ({ data, location }) => {
           Abli Health
         </NavLink>
         <div style={{ flex: "auto" }}></div>
-        <NavLink style={{ color: "white" }} href="clinics" p={2}>
-          For clinics
-        </NavLink>
         <NavLink style={{ color: "white" }} href="patients" p={2}>
           For patients
         </NavLink>
@@ -31,7 +28,7 @@ export default ({ data, location }) => {
           Contact
         </NavLink>
       </TobBar>
-      <Header />
+      <Header />ﬁ
       <Offer features={siteData.benefits} />
     </Layout>
   )
@@ -41,8 +38,9 @@ export const pageQuery = graphql`
   query {
     site {
       siteMetadata {
-        home {
+        clinics {
           heading
+          description
           benefits {
             logo
             heading
