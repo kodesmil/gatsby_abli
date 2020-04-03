@@ -2,13 +2,16 @@ import React from "react"
 import { Contact } from "../components/contact"
 import { Footer } from "../components/footer"
 import { Smile } from "../components/smile"
+import Fade from "react-reveal/Fade"
 
 const Layout = ({ location, children }) => 
-  <div location={location} style={{ background: "#f5fefe" }}>
+  <div location={location} style={{ background: "#fafefe" }}>
     {children}
-    <Smile />
-    <Contact />
-    <Footer />
+    <Fade>
+      <Smile />
+      <Contact />
+      <Footer />
+    </Fade>
   </div>
 
 

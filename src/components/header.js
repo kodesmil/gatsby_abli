@@ -1,6 +1,6 @@
 import React from "react"
 import { Flex, Box, Styled } from "theme-ui"
-import Woman from "../../content/assets/svg/Woman.svg"
+import { Svg } from "./svg";
 
 export class Header extends React.Component {
   render() {
@@ -8,6 +8,7 @@ export class Header extends React.Component {
       <Flex
         sx={{
           position: "relative",
+          paddingTop: ["7em", "4em", "4em", "4em"],
           minHeight: "100vh",
         }}
         as="section"
@@ -16,61 +17,40 @@ export class Header extends React.Component {
           sx={{
             my: "auto",
             mx: "auto",
-            width: ["90%", "80%", "80%", "60%"],
+            width: ["85%", "80%", "80%", "60%"],
           }}
         >
           <Styled.h1
             style={{
               color: "black",
               lineHeight: 0.95,
-              marginTop: "1em",
-              textAlign: "center",
             }}
           >
-            AI-based{" "}
-            <span
-              style={{
-                background:
-                  "linear-gradient(54.4deg, #31B1E7 10.45%, #268CF5 50%, #2F58F7 89.55%)",
-                "-webkit-background-clip": "text",
-                "-webkit-text-fill-color": "transparent",
-              }}
-            >
-              healthcare
-            </span> platform
-            
+            {this.props.header.heading}
           </Styled.h1>
           <Box
             sx={{
-              marginTop: ["1.5em", "2em", "2em", "2em"],
+              marginTop: ["2em", "2em", "2em", "3em"],
             }}
           >
             <Styled.h3
               style={{
                 color: "black",
-                textAlign: "center",
               }}
             >
-              We are transforming the lives of people with behavioural health
-              and chronic diseases through data-driven medicine.
+              {this.props.header.description}
             </Styled.h3>
           </Box>
           <Box
             sx={{
-              height: ["9em", "11em", "13em", "16em"],
-              width: ["9em", "11em", "13em", "16em"],
-              minWidth: ["9em", "11em", "13em", "16em"],
-              marginTop: ["1.5em", "2em", "2em", "2em"],
+              height: ["16em", "17em", "18em", "20em"],
+              width: ["16em", "17em", "18em", "20em"],
+              minWidth: ["16em", "17em", "18em", "20em"],
+              marginTop: ["1em", "1em", "1em", "1em"],
               marginLeft: "auto",
-              marginRight: "auto",
             }}
           >
-            <Woman
-              style={{
-                height: "inherit",
-                width: "inherit",
-              }}
-            ></Woman>
+            <Svg logo={this.props.header.logo} />
           </Box>
         </Box>
       </Flex>

@@ -1,5 +1,4 @@
 import React from "react"
-import Fade from "react-reveal/Fade"
 import { NavLink } from "theme-ui"
 import { Contact } from "../components/contact"
 import { Footer } from "../components/footer"
@@ -9,6 +8,8 @@ import SEO from "../components/seo"
 import { Smile } from "../components/smile"
 import { TobBar } from "../components/toolBar"
 import Layout from "../layouts"
+import { About } from "../components/about"
+import Fade from "react-reveal/Fade"
 
 export default ({ data, location }) => {
   const siteData = data.site.siteMetadata.clinics
@@ -17,18 +18,18 @@ export default ({ data, location }) => {
     <Layout location={location}>
       <SEO title={siteTitle} />
       <TobBar>
-        <NavLink style={{ color: "white", fontSize: "24px" }} href="/">
+        <NavLink style={{ color: "white", fontSize: "20px" }} href="/">
           Abli Health
         </NavLink>
         <div style={{ flex: "auto" }}></div>
         <NavLink style={{ color: "white" }} href="patients" p={2}>
           For patients
         </NavLink>
-        <NavLink style={{ color: "white" }} href="#contact" p={2}>
-          Contact
-        </NavLink>
       </TobBar>
-      <Header />ﬁ
+      <Header header={siteData.header} />
+      <Fade>
+        <About data={siteData.about} />
+      </Fade>
       <Offer features={siteData.benefits} />
     </Layout>
   )
@@ -39,8 +40,14 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         clinics {
-          heading
-          description
+          header {
+            logo
+            heading
+            description
+          }
+          about {
+            description
+          }
           benefits {
             logo
             heading

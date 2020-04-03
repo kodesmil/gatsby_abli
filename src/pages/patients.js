@@ -1,5 +1,4 @@
 import React from "react"
-import Fade from "react-reveal/Fade"
 import { NavLink } from "theme-ui"
 import { Contact } from "../components/contact"
 import { Footer } from "../components/footer"
@@ -9,6 +8,8 @@ import SEO from "../components/seo"
 import { Smile } from "../components/smile"
 import { TobBar } from "../components/toolBar"
 import Layout from "../layouts"
+import { About } from "../components/about";
+import Fade from "react-reveal/Fade"
 
 export default ({ data, location }) => {
   const siteData = data.site.siteMetadata.patients
@@ -24,12 +25,12 @@ export default ({ data, location }) => {
         <NavLink style={{ color: "white" }} href="clinics" p={2}>
           For clinics
         </NavLink>
-        <NavLink style={{ color: "white" }} href="#contact" p={2}>
-          Contact
-        </NavLink>
       </TobBar>
-      <Header />
-      <Offer features={siteData.benefits} />
+      <Header header={siteData.header} />
+      <Fade>
+        <About data={siteData.about} />
+      </Fade>
+        <Offer features={siteData.benefits} />
     </Layout>
   )
 }
@@ -38,9 +39,15 @@ export const pageQuery = graphql`
   query {
     site {
       siteMetadata {
-        home {
-          heading
-          description
+        patients {
+          header {
+            logo
+            heading
+            description
+          }
+          about {
+            description
+          }
           benefits {
             logo
             heading
