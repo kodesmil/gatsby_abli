@@ -6,7 +6,7 @@ export class Smile extends React.Component {
     return (
       <Box
         sx={{
-          paddingTop: ["6em", "6em", "8em", "8em"],
+          paddingTop: ["4em", "4em", "8em", "8em"],
           width: ["80%", "60%", "50%", "35%"],
           mx: "auto",
         }}

@@ -26,10 +26,9 @@ export class Offer extends React.Component {
                 </Styled.h4>
                 <Grid
                   gap="3em"
-                  columns={[1, 2]}
+                  columns={[1, 1, 2, 2]}
                   sx={{
                     maxWidth: "40em",
-                    marginTop: ["1em", "1.5em"],
                     paddingTop: "1em",
                   }}
                 >
@@ -41,7 +40,7 @@ export class Offer extends React.Component {
                       width: ["12em", "12em", "14em", "14em"],
                       minWidth: ["12em", "12em", "14em", "14em"],
                       marginLeft: "auto",
-                      paddingTop: ["4em", "4em", "6m", "8em"],
+                      paddingTop: ["0", "0", "6em", "8em"],
                     }}
                   >
                     <Svg logo={feature.logo}></Svg>

@@ -11,10 +11,10 @@ export class About extends React.Component {
           mx: "auto",
         }}
       >
-        <Styled.h2 style={{paddingBottom: "1em" }}>
+        <Styled.h2 style={{}}>
           Benefits
         </Styled.h2>
-        <Styled.p style={{ }}>
+        <Styled.p style={{paddingTop: "1em" } }>
           {this.props.data.description}
         </Styled.p>
       </Box>
