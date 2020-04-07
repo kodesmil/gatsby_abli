@@ -16,7 +16,6 @@ export class Smile extends React.Component {
           platform where practitioners can personalise care, using data from
           widely adopted smartphones and smartwatches.
         </Styled.p>
-        <Styled.h1 style={{ textAlign: "center", marginTop: "1em", }}> 🥳</Styled.h1>
       </Box>
     )
   }

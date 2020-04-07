@@ -14,7 +14,7 @@ export class TobBar extends React.Component {
             width: `100%`,
             paddingBottom: `0.5rem`,
             position: `fixed`,
-            background: `#2F4465`,
+            background: `#2EAFFF`,
             zIndex: `100000`,
           }}
           as="nav"

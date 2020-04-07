@@ -21,7 +21,7 @@ export default ({ data, location }) => {
         <NavLink style={{ color: "white", fontSize: "24px" }} href="/">
           Abli Health
         </NavLink>
-        <div style={{ flex: "auto" }}></div>
+        <div style={{flex: "auto"}}/>
         <NavLink style={{ color: "white" }} href="/clinics" p={2}>
           For clinics
         </NavLink>

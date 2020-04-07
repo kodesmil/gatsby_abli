@@ -11,13 +11,13 @@ export default ({ data, location }) => {
   const siteData = data.site.siteMetadata.home
   const siteTitle = siteData.heading
   return (
-    <Layout location={location}>
+    <Layout location={location} clinicPage={true}>
       <SEO title={siteTitle} />
       <TobBar>
         <NavLink style={{ color: "white", fontSize: "24px" }} href="/">
           Abli Health
         </NavLink>
-        <div style={{ flex: "auto" }}></div>
+        <div style={{flex: "auto"}}/>
         <NavLink style={{ color: "white" }} href="/clinics" p={2}>
           Clinics
         </NavLink>
